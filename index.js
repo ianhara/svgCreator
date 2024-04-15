@@ -45,16 +45,17 @@ function readSvg(answers){
     }
     if(answers.shape === 'square'){
         console.log("user picked square")
-        
+        newShape = new Square(answers.shapeColor,answers.text,answers.textColor)
+
         
     }
     if(answers.shape === 'circle'){
         console.log("user picked circle")
-        
-    } const logo = 
- `${newShape.render()} `
+        newShape = new Circle(answers.shapeColor,answers.text,answers.textColor)
 
-  fs.writeFile(`./output`, `utf8`)
+    } const logo = newShape.render()
+
+  fs.writeFileSync(`./output/logo.svg`, logo, `utf8`)
     
     
 }
