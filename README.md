@@ -1,6 +1,6 @@
 # Logo creator
 
-A command-line application for generating SVG logos using Triangle, Circle, and Square shapes.
+A command-line application for generating logos
 
 ## Installation
 
@@ -17,6 +17,13 @@ A command-line application for generating SVG logos using Triangle, Circle, and 
 ## Shape Classes
 
 Includes classes for Triangle, Circle, and Square shapes. Each has a `render()` method generating SVG code.
+
+## Contributions
+Tutor provided by calendly : Juan 
+
+## Video
+https://drive.google.com/file/d/1kWXvlbss0RBtA36gvWzpB6ffWJMcU8Yd/view
+
 
 ## Testing
 
